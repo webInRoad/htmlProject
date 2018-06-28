@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>页码</title>
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+	}
+	.page{
+		/*height: 40px;*/
+		margin-top: 10px;
+		text-align: center;
+	}
+	.page a{
+		display: inline-block;
+		margin:5px;
+		width: 27px;
+		height: 27px;
+		line-height: 27px;
+		/*padding:5px 10px;*//*等价于上面三行*/
+		border: 1px solid #E8E8E8;
+		text-decoration: none;
+	}
+	.page a.selected{
+		color:#FFF;
+		background-color: #cc1b1b;
+	}
+	.page a:link,.page a:visited{
+		color:#000;
+	}
+	.page a:hover,.page a:active{
+		color:#FFF;
+		background-color: #cc1b1b;
+	}
+</style>
+</head>
+<body>
+	<div class="page">
+		<a href="#" >首页</a>
+		<a href="#">&lt;</a>
+		<a href="#" class="selected">1</a>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">...</a>
+		<a href="#">&gt;</a>
+		<a href="#">末页</a>
+	</div>
+</body>
+</html>

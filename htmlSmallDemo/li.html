@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>li</title>
+	<style>
+		li{
+			list-style-type: none;
+			float: left;
+			width: 50px;
+			height: 30px;
+			line-height:30px;
+			text-align: center;
+		}
+		a{
+			display:block;
+			/* 由于a标签属于内联元素，无高度和宽度属性，因此控制鼠标经过状态改变背景颜色时，仅在有文字的地方显示背景颜色。解决的办法是把a标签变为块级元素，display:block */
+		}
+		a:link,a:visited{
+			text-decoration: none;
+			color:black;
+		}
+		a:hover,a:active{
+			text-decoration: none;
+			color: white;
+			background: #BE3948;
+			/*display: block;*/
+		}
+	</style>
+</head>
+<body>
+	<h3>课程难度</h3>
+	<ul>
+		<li><a href="#">全部</a></li>
+		<li><a href="#">初级</a></li>
+		<li><a href="#">中级</a></li>
+		<li><a href="#">高部</a></li>
+	</ul>
+</body>
+</html>

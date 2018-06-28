@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>固定位置的导航条</title>
+	<style>
+		*{
+			margin:0;
+			padding: 0;
+			font-size: 14px;
+		}
+		a{
+			text-decoration: none;
+		}
+		.wrap{
+			width: 800px;
+			/*height: 800px;*/
+			overflow: auto;
+			margin:0 auto;
+		}
+		.nav{
+			width: 800px;
+			height: 60px;
+			/*line-height: 60px;*/
+			background-color: #FBFBFB;
+			position: fixed;
+			top: 0;
+		}
+		ul{
+			margin-left: 300px;
+			list-style-type: none;
+		}
+		.nav li{
+			height: 22px;
+			line-height: 22px;
+			text-align: center;
+			margin-right: 6px;
+			float: left;
+			cursor: pointer;
+		}
+		.nav li a{
+			padding:0 8px;
+			border-radius: 3px;
+			color:#323232;
+			display:block;
+		}
+		.nav li a:hover{
+			background-color: #95DB76;
+			color:#FFF;
+		}
+		.main{
+			height: 1200px;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="nav">
+			<!-- 内容居中 -->
+			<ul>
+				<li><a href="">网页</a></li>
+				<li><a href="">新闻</a></li>
+				<li><a href="">视频</a></li>
+				<li><a href="">图片</a></li>
+				<li><a href="">良医</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小箭头</title>
+	<style>
+		/* div{
+			border:10px solid;
+			border-top-color: red;
+			border-bottom-color: blue;
+			border-left-color: yellow;
+			border-right-color: green;
+			border-color: transparent;
+			border-left-color: red;
+			width: 0;
+			height: 0;
+		} */
+		.container{
+			width: 100px;
+			height: 36px;
+			font-size: 16px;
+			line-height: 36px;
+			background-color: #B03C7C;
+			color: #FFF;
+			margin: 0 auto;
+			border-radius: 4px;
+			padding:0 5px;
+			/* white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis; */
+			/*设置后用before、after伪类显示的内容超过范围就不可见*/
+			text-align: center;
+			position: relative;
+		}
+		.container:before{
+			content: '';
+			border: 10px solid transparent;
+			border-right-color:#B03C7C;
+			position: absolute;
+			left:-20px;
+			top:8px;
+		}
+	</style>
+</head>
+<body>
+	<!-- <div></div> -->
+	<div class="container">
+	   <!-- <div class="arrow">箭头</div> -->
+	   <span class="title">我是一个tip标签</span>
+	<div>
+</body>
+</html>
