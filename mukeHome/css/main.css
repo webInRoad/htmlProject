@@ -1,0 +1,162 @@
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+	font-family: '微软雅黑';
+	font-weight: normal;
+	box-sizing: border-box;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.nav{
+	height: 70px;
+	margin-top: 10px;
+}
+.nav_left{
+	width:200px;
+	margin-right:5px;
+	float: left;
+}
+.nav_right{
+	width:795px;
+	height:70px;
+	float: left;
+}
+.nav_right li{
+	list-style-type: none;
+	text-align:center;
+	width:100px; 
+	height: 70px;
+	line-height: 70px;
+	float: left;
+	
+}
+.nav_right li a{
+	display:block;
+	font-size:17px;
+}
+.nav_right li.home{
+	background-color:#BD3847;
+}
+.nav_right li a:link,.nav_right li:visited{
+	text-decoration: none;
+	color:#000;
+}
+.nav_right li a:hover,.nav_right li:active{
+	text-decoration: none;
+	background-color:#BD3847;
+}
+
+/* ad样式 */
+.ad{
+	height: 310px;
+}
+
+/* 滚动新闻 */
+.scroll_news{
+	height: 38px;
+	line-height: 38px;
+	margin: 20px 0;
+	font-size:0;
+	color:#FFF;
+}
+.scroll_news span{
+	font-size:16px;
+}
+.scroll_left{
+	display: inline-block;
+	width: 10%;
+	background-color: #BD3847;
+	text-align: center;
+}
+.scroll_right{
+	display: inline-block;
+	width: 90%;
+	background-color: #3E3E3E;
+	padding-left: 10px;
+}
+/* 图片新闻 */
+.pic_news_img{
+	width: 330px;
+	border: 1px solid #E8E8E8;
+	float: left;
+	text-align: center;
+}
+/* 主体部分 */
+.main_content{
+	width: 100%;
+	height: 300px;
+	margin:20px 0;
+	float: left;
+}
+.hot_activity{
+	margin:0 5px;
+}
+.text_news,.hot_activity,.contactUS{
+	width: 330px;
+	height: 300px;
+	float: left;
+	border: 1px solid #E8E8E8;
+}
+.text_news > h2,.hot_activity > h2,.contactUS > h2{
+	background-color: #BD3847;
+	padding-left: 10px;
+	color: #FFF;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.text_news li{
+	list-style-type: none;
+	margin:10px 5px 0 5px;
+	float: left;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.text_news .date{
+	width: 52px;
+	height: 60px;
+	color:#FFF;
+	font-size: 14px;
+	float: left;
+	background-color:#BD3847;
+	padding: 10px 10px;
+	border-radius: 4px;
+}
+.text_right{
+	width: 256px;
+	float: left;
+	margin-left: 10px;
+}
+.title{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top:-6px;
+	margin-bottom: 6px;
+}
+.text_right_content{
+	line-height: 20px;
+	font-size: 14px;
+}
+/* 热门活动 */
+.hot_content{
+	padding:26px;
+}
+.hot_content li{
+	list-style-type: none;
+}
+.contactUS_content{
+	padding-left: 5px;
+}
+/* 页眉 */
+.foot{
+	height: 60px;
+	line-height: 60px;
+	clear: both;
+	background-color: #ccc;
+	text-align: center;
+}
+

@@ -3,11 +3,11 @@
 - border实现小箭头，border设置的其实默认就是**三角形**，平日是由于1像素所以看起来是直线
 	
 	```
-		.container:before{
-			content: '';
-			border: 10px solid transparent;
-			border-right-color:#B03C7C;
-		}
+	.container:before{
+		content: '';
+		border: 10px solid transparent;
+		border-right-color:#B03C7C;
+	}
 	```
 - li实现导航(li.html与固定位置的导航条.html)
 	
