@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>图像水平垂直居中</title>
+        <style>
+            div {
+                background-color: cyan;
+                text-align: center;
+                line-height: 150px;
+            }
+            
+            img {
+                vertical-align:middle;
+            }
+            p{
+            	color: red;
+            	font-weight: bold;
+            	text-indent: 2em;
+            }
+            span{
+            	background-color: red;
+            	display:inline-block;
+            }
+        </style>
+    </head>
+    <body>
+    	<p>
+    		在高度不固定的容器中，让图像与隐藏文本节点垂直居中对齐，再逐渐扩大行高，由行高撑开隐藏文本的高度，随着行高的增加，当行高大于图像的高度时，就能实现图像在不定高容器中的垂直居中
+    	</p>
+        <div>
+            <img src="http://a.hiphotos.baidu.com/zhidao/pic/item/72f082025aafa40fa38bfc55a964034f79f019ec.jpg" 
+            alt="A picture" style="width:175px;height:100px">
+            <span>
+            	隐藏文本节点
+            </span>
+        </div>
+    </body>
+</html>

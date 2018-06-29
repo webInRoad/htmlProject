@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            div {
+            	
+            	font-size: 22px;
+                background-color: red;
+                line-height: 14px;
+                /*font-size: 0px;*/
+            }
+            span{
+            	display: inline-block;
+            	background-color: green;
+            	
+            }
+            p{
+            	color: red;
+            	font-weight: bold;
+            	text-indent: 2em;
+            }
+            p span{
+            	color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+    	<p>
+    		只要一个文本存在，它就会有四条线，顶线、中线、基线、底线，而基线是根基所在，其他三条线都是根据基线定义的，<span>所以改变字体大小，基线是不会变化的</span>，其他三条线会相应调整位置。即使font-size为0，文本根本看不见了，但是要记得，字体大小与行内框高度没有半毛钱关系。
+    	</p>
+        <div>
+            <img src="http://a.hiphotos.baidu.com/zhidao/pic/item/72f082025aafa40fa38bfc55a964034f79f019ec.jpg" 
+            alt="A picture" style="width:175px;height:100px" />
+            <span>
+            	隐藏
+            </span>
+        </div>
+    </body>
+</html>

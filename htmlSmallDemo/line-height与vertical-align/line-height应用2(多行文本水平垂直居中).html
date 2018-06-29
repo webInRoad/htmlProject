@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>多行文本水平垂直居中</title>
+        <style>
+            div.box {
+                width:500px;
+                height:300px;
+                background-color: cyan;
+                text-align: center;
+                line-height: 300px;
+            }
+
+            div.container {
+                display:inline-block;
+                vertical-align: middle;
+                line-height: 1.5;/*line-height具体继承性，不重新定义的话值为300px*/
+                /*width: 380px;*/
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="container">
+                <ul>
+                    <li>多行文本水平垂直居中的原理与图像一样;</li>
+                    <li>将文本用一个容器封装起来，把它当成图像看待;</li>
+                    <li>设置display属性值为inline-block;</li>
+                    <li>设置line-height属性值;</li>
+                    <li>设置width属性值;</li>
+                    <li>设置text-align属性值。</li>
+                </ul>
+            </div>
+            <!--<span>232323</span>--> <!--隐藏文本节点-->
+        </div>
+    </body>
+</html>
